@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+table {
+  margin-top: 30px;
+}
+
+input {
+  margin-right: 10px;
+}
+.weather-forecast-container {
+  display: flex;
+}
+
+.weather-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-right: 10px;
+  padding: auto;
+
+}
+
+.weather-table th,
+.weather-table td {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+.date-cell {
+  background-color: #FF7518;
+}
+/* WeatherForecast.css */
+
+.city-input {
+  margin-top: 50px;
+  border: 1px solid#b95512 ;
+  border-radius: 5px;
+  padding: 5px 10px; 
+  width: 270px;
+  height: 45px;
+}
+
+.submit-button {
+  margin-top: 50px;
+  background-color: #b95512 ;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white; 
+  cursor: pointer;
+
+}
+
+
+.submit-button {
+
+  position: relative;
+  padding: 10px 20px;
+}
+
+
+
+.weather-text {
+  font-size: 35px;
+  margin-left: 50px;
+  margin-right: 200px;
+  color: #b95512 ;
+
+}
+
+@media screen and (max-width: 600px) {
+  .weather-text {
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 200px;
+    color: #b95512 ;
+  }
+
+  .city-input {
+    margin-top: 50px;
+  border: 1px solid#b95512 ;
+  border-radius: 5px;
+  padding: 5px 10px; 
+  width: 270px;
+  height: 45px;
+  }
+
+  .submit-button {
+    margin-top: 50px;
+    background-color: #b95512 ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white; 
+    cursor: pointer;
+  }
+}
+
